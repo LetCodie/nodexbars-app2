@@ -1,0 +1,13 @@
+<h1>welcome home</h1>
+{{#if show}}
+{{content}}
+{{/if}}
+
+<ul>
+  {{#each people}}
+    <li>first name: {{this.firstName}}</li>
+    <li>last name: {{this.lastName}}</li>
+    <li>age: {{this.age}}</li>
+    <li><hr></li>
+  {{/each}}
+</ul>
